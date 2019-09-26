@@ -1,0 +1,11 @@
+/*
+* {
+    margin: 20px;
+}
+*/
+.pic {
+    border: 1px solid black;
+    width: 200px;
+    height: 220px;
+    text-align: center;
+}
