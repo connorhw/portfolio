@@ -1,11 +1,42 @@
-/*
-* {
-    margin: 20px;
-}
-*/
 .pic {
     border: 1px solid black;
     width: 200px;
     height: 220px;
     text-align: center;
+}
+
+.bio {
+    border: 1px solid black;
+    width: 600px;
+    height: 220px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.rowOne {
+    display: flex;
+
+    
+}
+
+.projects {
+    border: 1px solid black;
+    width: 33%;
+    height: 125px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer div {
+    border: 1px solid black;
+    align-items: flex-end;
+    height: 50px;
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 98.7%;
+    
 }
