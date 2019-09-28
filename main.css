@@ -9,6 +9,7 @@
         width: 200px;
         height: 220px;
         text-align: center;
+        background-color: beige;
     }
     
     .bio {
@@ -17,6 +18,7 @@
         height: 220px;
         text-align: center;
         margin-left: 10px;
+        background-color: beige;
     }
     
     .rowOne {
@@ -41,6 +43,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        background-color: beige;
         
     }
     
@@ -74,6 +77,7 @@
         position: absolute;
         bottom: 0;
         width: 98.7%;
+        background-color: beige;
         
     }
 }
@@ -92,6 +96,7 @@
         /*text-align: center;*/
         display: flex;
         align-self: center;
+        background-color: beige;
     }
     
     .bio {
@@ -101,6 +106,7 @@
         text-align: center;
         margin-left: 10px;
         margin-top: 10px;
+        background-color: beige;
     }
     
     .rowOne {
@@ -120,6 +126,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        background-color: beige;
         
     }
     
@@ -153,7 +160,7 @@
         position: absolute;
         bottom: 0;
         width: 95%;
-     
+        background-color: beige;
         
     }
 }
