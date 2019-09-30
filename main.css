@@ -1,4 +1,4 @@
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2500px) {
     header {
         display: flex;
         justify-content: center;
@@ -9,7 +9,7 @@
         width: 200px;
         height: 220px;
         text-align: center;
-        background-color: beige;
+        background-color: grey;
     }
     
     .bio {
@@ -18,7 +18,7 @@
         height: 220px;
         text-align: center;
         margin-left: 10px;
-        background-color: beige;
+        background-color: grey;
     }
     
     .rowOne {
@@ -43,7 +43,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: beige;
+        background-color: grey;
         
     }
     
@@ -77,7 +77,7 @@
         position: absolute;
         bottom: 0;
         width: 98.7%;
-        background-color: beige;
+        background-color: grey;
         
     }
 }
@@ -96,7 +96,7 @@
         /*text-align: center;*/
         display: flex;
         align-self: center;
-        background-color: beige;
+        background-color: grey;
     }
     
     .bio {
@@ -106,7 +106,7 @@
         text-align: center;
         margin-left: 10px;
         margin-top: 10px;
-        background-color: beige;
+        background-color: grey;
     }
     
     .rowOne {
@@ -126,7 +126,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: beige;
+        background-color: grey;
         
     }
     
@@ -157,10 +157,10 @@
     }
     
     #footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 95%;
-        background-color: beige;
+        background-color: grey;
         
     }
 }
