@@ -1,16 +1,27 @@
-@media screen and (max-width: 2500px) {
+header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    
+    background-color: black;
+    color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #24292e;
+    
+}
 
-    header {
-        display: flex;
-        justify-content: center;
-    }
+@media screen and (max-width: 2500px) {
     
     .pic {
         border: 1px solid black;
         width: 200px;
         height: 220px;
         text-align: center;
-        background-color: grey;
+        
     }
     
     .bio {
@@ -19,14 +30,14 @@
         height: 220px;
         text-align: center;
         margin-left: 10px;
-        background-color: grey;
+        
     }
     
     .rowOne {
         display: flex;
         justify-content: center;
-    
-        
+        background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 60%,#fff),linear-gradient(70deg,#dbedff 32%,#ebfff0);
+        padding-top: 10px;
     }
 
     .rowTwo {
@@ -44,7 +55,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: grey;
+        
         
     }
     
@@ -78,7 +89,7 @@
         position: absolute;
         bottom: 0;
         width: 98.7%;
-        background-color: grey;
+        background-color: #fff;
         margin-top: 50px;
         
     }
@@ -88,11 +99,6 @@
 }
 
 @media screen and (max-width: 740px) {
- 
-    header {
-        display: flex;
-        justify-content: center;
-    }
     
     .pic {
         border: 1px solid black;
@@ -101,7 +107,7 @@
         /*text-align: center;*/
         display: flex;
         align-self: center;
-        background-color: grey;
+        
     }
     
     .bio {
@@ -111,14 +117,15 @@
         text-align: center;
         margin-left: 10px;
         margin-top: 10px;
-        background-color: grey;
+        
     }
     
     .rowOne {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        
+        background-image: linear-gradient(180deg,hsla(0,0%,100%,0) 60%,#fff),linear-gradient(70deg,#dbedff 32%,#ebfff0);
+        padding-top: 10px;
     }
     
     .projects {
@@ -131,7 +138,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: grey;
+        
         
     }
     
@@ -165,7 +172,7 @@
         position: fixed;
         bottom: 0;
         width: 95%;
-        background-color: grey;
+        background-color: #fff;
         margin-top: 50px;
         
     }
