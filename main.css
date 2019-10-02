@@ -27,9 +27,16 @@ header {
     .bio {
         border: 1px solid black;
         width: 600px;
-        height: 220px;
-        text-align: center;
+        height: 200px;
+        text-align: left;
         margin-left: 10px;
+        padding:10px;
+        font-size: 14px;
+        line-height: 19px;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        
         
     }
     
@@ -113,10 +120,13 @@ header {
     .bio {
         border: 1px solid black;
         width: 94%;
-        height: 220px;
-        text-align: center;
-        margin-left: 10px;
+        height: 310px;
+        text-align: left;
+        /*margin-left: 10px;*/
         margin-top: 10px;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 19px;
         
     }
     
@@ -128,6 +138,10 @@ header {
         padding-top: 10px;
     }
     
+    .rowTwo {
+        margin-bottom: 10px;
+    }
+
     .projects {
         border: 1px solid black;
         width: 90%;
