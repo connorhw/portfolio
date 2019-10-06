@@ -6,7 +6,7 @@ function renderBio() {
     world of technology. I've worked in IT for over seven years, so you can trust my problem solving will be efficient. I'm also a 
     minimalist, so you can expect my code to be prettier than the next. And just like every other basketball player that isn't good enough
     to play professionally, I have a competitiveness that trickles down to everything else I do in life, which makes me a valuable asset 
-    for any team I'm a part of.
+    to any team I'm a part of.
     `);
 }
 

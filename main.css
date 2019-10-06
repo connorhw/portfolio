@@ -161,17 +161,19 @@ header {
     .projects {
         border: 1px solid black;
         width: 90%;
-        height: 125px;
+        height: 575px;
         text-align: center;
         margin-top: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
     
     .screenshot {
-        border: 1px solid black;
-        height: 100px;
+        /*border: 1px solid black;*/
+        height: 250px;
+        width: 300px;
         margin-left: 10px;
         display: flex;
         justify-content: center;
@@ -180,12 +182,13 @@ header {
     
     .description {
         border: 1px solid black;
-        height: 370px;
+        height: 300px;
         width: 70%;
         margin-left: 10px;
         margin-right: 10px;
+        margin-top: 10px;
         display: flex;
-        justify-content: center;
+        /*justify-content: center;*/
     }
     
     footer div {
@@ -199,6 +202,7 @@ header {
         position: fixed;
         bottom: 0;
         width: 95%;
+        height: 75px;
         background-color: #fff;
         margin-top: 50px;
         
