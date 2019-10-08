@@ -124,7 +124,7 @@ header {
 @media screen and (max-width: 740px), (max-height: 1000) {
     
     .pic {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         width: 200px;
         height: 220px;
         /*text-align: center;*/
@@ -134,7 +134,7 @@ header {
     }
     
     .bio {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         width: 94%;
         height: 310px;
         text-align: left;
@@ -159,7 +159,7 @@ header {
     }
 
     .projects {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         width: 90%;
         height: 575px;
         text-align: center;
@@ -181,9 +181,9 @@ header {
     }
     
     .description {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         height: 300px;
-        width: 70%;
+        width: 85%;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 10px;
@@ -192,7 +192,7 @@ header {
     }
     
     footer div {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         align-items: flex-end;
         height: 25px;
         text-align: center;
