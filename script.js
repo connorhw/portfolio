@@ -14,8 +14,9 @@ function renderProjectDescription1() {
     $('.description').html(`
     
     This application quizzes the user on basic information about the National Basketball Association. It is comprised of five questions of 
-    what I believe an individual should know, before calling themselves a competent NBA fan. Are you a real fan?
-    
+    what I believe an individual should know, before calling themselves a competent NBA fan. Are you a real fan? 
+    (Technologies: HTML, CSS, and JavaScript)
+
     <a href="https://connorhw.github.io/portfolio/" class="liveLink1">HERE!</a>
     `);
 }
