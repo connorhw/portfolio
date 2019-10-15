@@ -1,5 +1,7 @@
 function renderBio() {
     $('.bio').html(`
+    About me:
+
     I'm working to become a software engineer once I graduate from the Web Developer Track at Bloc. I love programming just as much 
     as I love dogs. For the record, I really love dogs. Solving technical problems and displaying my (what I believe to be) unparalleled 
     creativity, led me to pursue programming. This field makes me feel like I'm doing my part in contributing to the ever-so developing 
@@ -13,11 +15,9 @@ function renderBio() {
 function renderProjectDescription1() {
     $('.description').html(`
     
-    This application quizzes the user on basic information about the National Basketball Association. It is comprised of five questions of 
+    QUIZ APP: This application quizzes the user on basic information about the National Basketball Association. It is comprised of five questions of 
     what I believe an individual should know, before calling themselves a competent NBA fan. Are you a real fan? 
-    (Technologies: HTML, CSS, and JavaScript)
 
-    <a href="https://connorhw.github.io/portfolio/" class="liveLink1">HERE!</a>
     `);
 }
 
@@ -29,7 +29,7 @@ function renderProjectScreenshot1() {
 
 function renderProfilePic() {
     $('.pic').html(`
-    <img class="pic" src="https://user-images.githubusercontent.com/22334563/66242581-6525e580-e6f1-11e9-8b19-728ff3179822.png">
+    <img class="pic" src="file:///C:/Users/asus/Downloads/me1.jpg">
     `);
 }
 
