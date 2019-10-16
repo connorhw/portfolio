@@ -29,14 +29,14 @@ function renderProjectScreenshot1() {
 
 function renderProfilePic() {
     $('.pic').html(`
-    <img class="pic" src="file:///C:/Users/asus/Downloads/me1.jpg">
+    <img class="pic" src="https://user-images.githubusercontent.com/22334563/66890389-8b8f2f00-efd5-11e9-9f91-5a0f9d1502a1.jpg">
     `);
 }
 
 function renderFooterLinks() {
     $('.email').html(`connorwong93@gmail.com`);
-    $('.linkedIn').html(`<a href="https://www.linkedin.com/in/connor-wong-46b157a0/">LinkedIn</a>`);
-    $('.github').html(`<a href="https://github.com/connorhw">GitHub</a>`);
+    $('.linkedIn').html(`<a href="https://www.linkedin.com/in/connor-wong-46b157a0/" target="_blank">LinkedIn</a>`);
+    $('.github').html(`<a href="https://github.com/connorhw" target="_blank">GitHub</a>`);
 }
 
 function renderPage() {
