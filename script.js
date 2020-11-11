@@ -1,3 +1,4 @@
+/* -- About me, below -- */
 function renderBio() {
     $('.bio').html(`
     About me:
@@ -12,8 +13,43 @@ function renderBio() {
     `);
 }
 
+/* -- Project 3, below -- */
+function renderProjectDescription3() {
+    $('#d3').html(`
+    
+    PLANT PARENTHOOD APP: This application makes your life easier when you're in the market for a new laptop. It takes into account your brand of choice, 
+    preferred type of hard drive, and finally the budget you're working with. Save yourself from hours of research and give yourself a starting 
+    point to finding the perfect laptop that fits you.
+
+    `);
+}
+
+function renderProjectScreenshot3() {
+    $('.screenshot3').html(`
+    <img class="screenshot" src="//imgur.com/a/EOIYfUa">
+    `);
+}
+
+/* -- Project 2, below -- */
+function renderProjectDescription2() {
+    $('#d2').html(`
+    
+    LAPTOP4U APP: This application makes your life easier when you're in the market for a new laptop. It takes into account your brand of choice, 
+    preferred type of hard drive, and finally the budget you're working with. Save yourself from hours of research and give yourself a starting 
+    point to finding the perfect laptop that fits you.
+
+    `);
+}
+
+function renderProjectScreenshot2() {
+    $('.screenshot2').html(`
+    <img class="screenshot" src="//imgur.com/a/EOIYfUa">
+    `);
+}
+
+/* -- Project 1, below -- */
 function renderProjectDescription1() {
-    $('.description').html(`
+    $('#d1').html(`
     
     QUIZ APP: This application quizzes the user on basic information about the National Basketball Association. It is comprised of five questions of 
     what I believe an individual should know, before calling themselves a competent NBA fan. Are you a real fan? 
@@ -27,12 +63,14 @@ function renderProjectScreenshot1() {
     `);
 } 
 
+/* -- Profile pic, below -- */
 function renderProfilePic() {
     $('.pic').html(`
     <img class="pic" src="https://user-images.githubusercontent.com/22334563/66890389-8b8f2f00-efd5-11e9-9f91-5a0f9d1502a1.jpg">
     `);
 }
 
+/* -- Footer, below -- */
 function renderFooterLinks() {
     $('.email').html(`connorwong93@gmail.com`);
     $('.linkedIn').html(`<a href="https://www.linkedin.com/in/connor-wong-46b157a0/" target="_blank">LinkedIn</a>`);
@@ -41,6 +79,10 @@ function renderFooterLinks() {
 
 function renderPage() {
     renderBio();
+    renderProjectDescription3();
+    renderProjectScreenshot3();
+    renderProjectDescription2();
+    renderProjectScreenshot2();
     renderProjectDescription1();
     renderProjectScreenshot1();
     renderProfilePic();

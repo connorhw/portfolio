@@ -85,9 +85,10 @@ ul {
     .rowTwo {
         display: flex;
         justify-content: center;
+        display: inline-block;
     }
     
-    .projects {
+    .projectx {
         /*border: 1px solid black;*/
         width: 70%;
         height: 200px;
@@ -199,7 +200,7 @@ ul {
         margin-bottom: 10px;
     }
 
-    .projects {
+    .projectx {
         /*border: 1px solid black;*/
         width: 90%;
         height: 575px;
