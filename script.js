@@ -1,40 +1,38 @@
 /* -- About me, below -- */
 function renderBio() {
     $('.bio').html(`
-    About me:
-
     I'm working to become a software engineer once I graduate from the Web Developer Track at Bloc. I love programming just as much 
-    as I love dogs. For the record, I really love dogs. Solving technical problems and displaying my (what I believe to be) unparalleled 
-    creativity, led me to pursue programming. This field makes me feel like I'm doing my part in contributing to the ever-so developing 
-    world of technology. I've worked in IT for over seven years, so you can trust my problem solving will be efficient. I'm also a 
-    minimalist, so you can expect my code to be prettier than the next. And just like every other basketball player that isn't good enough
-    to play professionally, I have a competitiveness that trickles down to everything else I do in life, which makes me a valuable asset 
-    to any team I'm a part of.
+    as I love dogs. For the record, I really love dogs. My passion for technical problem solving and my eagerness to display my 
+    (what I believe to be) unparalleled creativity, led me to pursue programming. This field makes me feel like I'm doing my part in 
+    contributing to the ever-so developing world of technology. I've worked in IT for over seven years, so you can trust my problem 
+    solving will be efficient. I'm also a minimalist, so you can expect my code to be prettier than the next. And just like every other 
+    basketball player that isn't good enough to play professionally, I have a competitiveness that trickles down to everything else I 
+    do in life, which makes me a valuable asset to any team I'm a part of.
+
     `);
 }
 
 /* -- Project 3, below -- */
 function renderProjectDescription3() {
     $('#d3').html(`
+    Currently deploying - I needed a quick and easy-to-use journal, in order to keep track of all the plant-maintenance related 
+    knowledge I'd been unconsciously accumulating over the years. The app is programmed with CRUD capabilities. You're able to submit, read, edit, 
+    and delete entries that reside in their own naturalized database.
     
-    PLANT PARENTHOOD APP: This application makes your life easier when you're in the market for a new laptop. It takes into account your brand of choice, 
-    preferred type of hard drive, and finally the budget you're working with. Save yourself from hours of research and give yourself a starting 
-    point to finding the perfect laptop that fits you.
 
     `);
 }
 
 function renderProjectScreenshot3() {
     $('.screenshot3').html(`
-    <img class="screenshot" src="//imgur.com/a/EOIYfUa">
+    <img class="screenshot" src="https://user-images.githubusercontent.com/22334563/101717430-3e89da00-3a6d-11eb-9ad5-5c8b81d22616.png">
     `);
 }
 
 /* -- Project 2, below -- */
 function renderProjectDescription2() {
     $('#d2').html(`
-    
-    LAPTOP4U APP: This application makes your life easier when you're in the market for a new laptop. It takes into account your brand of choice, 
+    This application makes your life easier when you're in the market for a new laptop. It takes into account your brand of choice, 
     preferred type of hard drive, and finally the budget you're working with. Save yourself from hours of research and give yourself a starting 
     point to finding the perfect laptop that fits you.
 
@@ -43,15 +41,14 @@ function renderProjectDescription2() {
 
 function renderProjectScreenshot2() {
     $('.screenshot2').html(`
-    <img class="screenshot" src="//imgur.com/a/EOIYfUa">
+    <img class="screenshot" src="https://user-images.githubusercontent.com/22334563/101717568-890b5680-3a6d-11eb-9a9d-d9b53a7c6542.png">
     `);
 }
 
 /* -- Project 1, below -- */
 function renderProjectDescription1() {
     $('#d1').html(`
-    
-    QUIZ APP: This application quizzes the user on basic information about the National Basketball Association. It is comprised of five questions of 
+    This application quizzes the user on basic information about the National Basketball Association. It is comprised of five questions of 
     what I believe an individual should know, before calling themselves a competent NBA fan. Are you a real fan? 
 
     `);
