@@ -17,7 +17,7 @@ function renderProjectDescription3() {
     $('#d3').html(`
     I needed a quick and easy-to-use journal, in order to keep track of all the plant-maintenance related 
     knowledge I'd been unconsciously accumulating over the years. The app is programmed with CRUD capabilities. You're able to submit, read, edit, 
-    and delete entries that reside in their own naturalized database.
+    and delete entries that reside in their own naturalized SQL database.
     
 
     `);
@@ -42,6 +42,20 @@ function renderProjectDescription2() {
 function renderProjectScreenshot2() {
     $('.screenshot2').html(`
     <img class="screenshot" src="https://user-images.githubusercontent.com/22334563/101717568-890b5680-3a6d-11eb-9a9d-d9b53a7c6542.png">
+    `);
+}
+
+function renderProjectDescription4() {
+    $('#d4').html(`
+    Currently Deplying - Travel journal with authorized log-in accounts. Includes full CRUD capabilities and its own naturalized SQL database.
+
+
+    `);
+}
+
+function renderProjectScreenshot4() {
+    $('.screenshot4').html(`
+    <img class="screenshot" src="https://user-images.githubusercontent.com/22334563/109249505-d1592b80-77b5-11eb-87d9-c96366054a41.png">
     `);
 }
 
@@ -76,6 +90,8 @@ function renderFooterLinks() {
 
 function renderPage() {
     renderBio();
+    renderProjectDescription4();
+    renderProjectScreenshot4();
     renderProjectDescription3();
     renderProjectScreenshot3();
     renderProjectDescription2();
