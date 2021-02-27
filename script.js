@@ -15,7 +15,7 @@ function renderBio() {
 /* -- Project 3, below -- */
 function renderProjectDescription3() {
     $('#d3').html(`
-    I needed a quick and easy-to-use journal, in order to keep track of all the plant-maintenance related 
+    Full-Stack - I needed a quick and easy-to-use journal, in order to keep track of all the plant-maintenance related 
     knowledge I'd been unconsciously accumulating over the years. The app is programmed with CRUD capabilities. You're able to submit, read, edit, 
     and delete entries that reside in their own naturalized SQL database.
     
@@ -47,7 +47,7 @@ function renderProjectScreenshot2() {
 
 function renderProjectDescription4() {
     $('#d4').html(`
-    Currently Deplying - Travel journal with authorized log-in accounts. Includes full CRUD capabilities and its own naturalized SQL database.
+    Full-Stack - Travel journal with authorized log-in accounts. Includes full CRUD capabilities and its own naturalized SQL database.
 
 
     `);
