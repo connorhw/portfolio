@@ -1,7 +1,7 @@
 /* -- About me, below -- */
 function renderBio() {
     $('.bio').html(`
-    I'm working to become a software engineer once I graduate from the Web Developer Track at Bloc. I love programming just as much 
+    I'm coding everyday and working to become a software developer. I love programming just as much 
     as I love dogs. For the record, I really love dogs. My passion for technical problem solving and my eagerness to display my 
     (what I believe to be) unparalleled creativity, led me to pursue programming. This field makes me feel like I'm doing my part in 
     contributing to the ever-so developing world of technology. I've worked in IT for over seven years, so you can trust my problem 
