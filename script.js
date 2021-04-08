@@ -2,7 +2,7 @@
 function renderBio() {
     $('.bio').html(`
     I'm coding everyday and working to become a software developer. I love programming just as much 
-    as I love dogs. For the record, I really love dogs. My passion for technical problem solving and my eagerness to display my 
+    as I love dogs, and for the record, I really love dogs. My passion for technical problem solving and my eagerness to display my 
     (what I believe to be) unparalleled creativity, led me to pursue programming. This field makes me feel like I'm doing my part in 
     contributing to the ever-so developing world of technology. I've worked in IT for over seven years, so you can trust my problem 
     solving will be efficient. I'm also a minimalist, so you can expect my code to be prettier than the next. And just like every other 
