@@ -107,8 +107,9 @@ ul.nav {
     
     .pic {
         /*border: 1px solid black;*/
-        width: 200px;
-        height: 270px;
+        /*width: 200px;
+        height: 270px;*/
+        height: 30%;
         text-align: center;
         
     }
@@ -227,9 +228,10 @@ ul.nav {
 
     .pic {
         /*border: 1px solid black;*/
-        width: 200px;
+        /*width: 200px;
         height: 270px;
         /*text-align: center;*/
+        height: 30%;
         display: flex;
         align-self: center;
         margin-top: 10px;
