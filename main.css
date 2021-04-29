@@ -110,6 +110,7 @@ ul.nav {
         /*width: 200px;
         height: 270px;*/
         height: 30%;
+        width: 100%;
         text-align: center;
         
     }
@@ -232,6 +233,7 @@ ul.nav {
         height: 270px;
         /*text-align: center;*/
         height: 30%;
+        width:100%;
         display: flex;
         align-self: center;
         margin-top: 10px;
