@@ -77,7 +77,7 @@ function renderProjectScreenshot1() {
 /* -- Profile pic, below -- */
 function renderProfilePic() {
     $('.pic').html(`
-    <img class="pic" src="https://user-images.githubusercontent.com/22334563/66890389-8b8f2f00-efd5-11e9-9f91-5a0f9d1502a1.jpg">
+    <img class="pic" src="https://user-images.githubusercontent.com/22334563/116499176-845b0980-a879-11eb-8a0e-99f7e89128b6.jpeg">
     `);
 }
 
