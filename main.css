@@ -214,10 +214,16 @@ ul.nav {
 
 ul.info {
     align-content: center;
+    padding-left: unset;
+    
 }
 
 ul.info li {
     padding: 10px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    text-align: center;
+    display: block;
 }
 h3.about {
     display: block;
@@ -229,7 +235,6 @@ h3.about {
 @media screen and (max-width: 740px) {
     .tech {
         display: flex;
-    
         font-weight: 300;
     }
     .nav li {
@@ -239,10 +244,6 @@ h3.about {
     }
 
     .pic {
-        /*border: 1px solid black;*/
-        /*width: 200px;
-        height: 270px;
-        /*text-align: center;*/
         height: 30%;
         width:100%;
         display: flex;
@@ -288,7 +289,7 @@ h3.about {
 
     .projectx {
         width: 90%;
-        height: 575px;
+        height: 625px;
         text-align: center;
         margin-top: 10px;
         margin-right: auto; 
